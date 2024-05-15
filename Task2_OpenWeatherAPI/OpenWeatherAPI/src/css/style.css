@@ -1,0 +1,71 @@
+/* for presentation only */
+
+body {
+	margin: 0;
+	background: url(./assets/Weather-station.jpg);
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	color: b;
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+#myForm {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#city {
+	width: 15rem;
+	height: 2rem;
+	border-radius: 8px;
+	background: transparent;
+	font-size: larger;
+	margin-right: 5px;
+}
+
+#btn {
+	width: fit-content;
+	height: 2.%;
+	border-radius: 8px;
+	color: black;
+	font-weight: 600;
+	background-color: skyblue;
+}
+
+#btn:hover {
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.weather-wrapper {
+	background: skyblue;
+	margin: 5% 0 5% 5%;
+	padding: 40px 5%;
+	float: left;
+	color: white;
+	width: 70%;
+	max-width: 400px;
+	border-radius: 20px;
+}
+
+strong {
+	color: steelblue;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.hide {
+	display: none;
+}
